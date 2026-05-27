@@ -1,0 +1,285 @@
+2026-05-27T10:32:27.924+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 13516 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:32:27.925+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:32:28.138+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:32:28.153+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2026-05-27T10:32:28.252+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:32:28.253+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:32:28.253+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:32:28.279+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 349 ms
+2026-05-27T10:32:28.320+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:32:28.342+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:32:28.344+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-05-27T10:32:28.360+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e04ca3
+2026-05-27T10:32:28.360+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-05-27T10:32:28.362+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:32:28.410+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:32:28.422+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:32:28.476+05:30  WARN 13516 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:32:28.566+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:32:28.568+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 0.734 seconds (process running for 1175.266)
+2026-05-27T10:32:28.570+05:30  INFO 13516 --- [Patient_Management_API] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-27T10:32:33.180+05:30  INFO 13516 --- [Patient_Management_API] [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-05-27T10:32:33.182+05:30  INFO 13516 --- [Patient_Management_API] [RMI TCP Connection(24)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T10:32:33.345+05:30  INFO 13516 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T10:32:33.350+05:30  INFO 13516 --- [Patient_Management_API] [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:32:33.350+05:30  INFO 13516 --- [Patient_Management_API] [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-05-27T10:32:33.354+05:30  INFO 13516 --- [Patient_Management_API] [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-05-27T10:32:35.890+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 25484 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:32:35.894+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:32:35.939+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-27T10:32:35.939+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-27T10:32:36.516+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:32:36.564+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-05-27T10:32:36.997+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:32:37.007+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:32:37.008+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:32:37.057+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1118 ms
+2026-05-27T10:32:37.205+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:32:37.250+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-27T10:32:37.649+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:32:37.677+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-27T10:32:37.946+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e0eeaca
+2026-05-27T10:32:37.949+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-27T10:32:38.035+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:32:38.828+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:32:38.891+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:32:38.975+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-27T10:32:39.165+05:30  WARN 25484 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:32:39.506+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:32:39.511+05:30  INFO 25484 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 4.012 seconds (process running for 4.719)
+2026-05-27T10:36:20.561+05:30  INFO 25484 --- [Patient_Management_API] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-05-27T10:36:20.564+05:30  INFO 25484 --- [Patient_Management_API] [RMI TCP Connection(8)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T10:36:20.746+05:30  INFO 25484 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T10:36:20.751+05:30  INFO 25484 --- [Patient_Management_API] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:36:20.755+05:30  INFO 25484 --- [Patient_Management_API] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T10:36:20.766+05:30  INFO 25484 --- [Patient_Management_API] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-27T10:37:54.903+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 5604 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:37:54.910+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:37:55.003+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-27T10:37:55.003+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-27T10:37:56.089+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:37:56.144+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-05-27T10:37:56.593+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:37:56.606+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:37:56.607+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:37:56.658+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1654 ms
+2026-05-27T10:37:56.809+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:37:56.856+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-27T10:37:57.255+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:37:57.283+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-27T10:37:57.558+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f87395
+2026-05-27T10:37:57.561+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-27T10:37:57.648+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:37:58.571+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:37:58.633+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:37:58.708+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-27T10:37:58.891+05:30  WARN 5604 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:37:59.261+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:37:59.266+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 4.884 seconds (process running for 5.734)
+2026-05-27T10:39:21.058+05:30  INFO 5604 --- [Patient_Management_API] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2026-05-27T10:39:21.065+05:30  INFO 5604 --- [Patient_Management_API] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T10:39:21.251+05:30  INFO 5604 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T10:39:21.255+05:30  INFO 5604 --- [Patient_Management_API] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:39:21.258+05:30  INFO 5604 --- [Patient_Management_API] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T10:39:21.269+05:30  INFO 5604 --- [Patient_Management_API] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-27T10:39:21.346+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 5604 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:39:21.347+05:30 DEBUG 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-27T10:39:21.347+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:39:21.500+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:39:21.514+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-05-27T10:39:21.610+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:39:21.611+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:39:21.611+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:39:21.635+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 286 ms
+2026-05-27T10:39:21.668+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:39:21.695+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:39:21.696+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-27T10:39:21.714+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2033084c
+2026-05-27T10:39:21.714+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-27T10:39:21.718+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:39:21.770+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:39:21.781+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:39:21.842+05:30  WARN 5604 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:39:21.941+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:39:21.944+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 0.627 seconds (process running for 88.413)
+2026-05-27T10:39:21.946+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-27T10:40:35.145+05:30  INFO 5604 --- [Patient_Management_API] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-27T10:40:35.146+05:30  INFO 5604 --- [Patient_Management_API] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-27T10:40:35.147+05:30  INFO 5604 --- [Patient_Management_API] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-27T10:40:35.181+05:30 DEBUG 5604 --- [Patient_Management_API] [http-nio-8080-exec-1] c.patient.controllers.PatientController  : Deleteing Patient Details by Patient Id
+2026-05-27T10:40:35.181+05:30  INFO 5604 --- [Patient_Management_API] [http-nio-8080-exec-1] c.patient.controllers.PatientController  : Deleted Patient By Id : 15
+2026-05-27T10:40:35.297+05:30  INFO 5604 --- [Patient_Management_API] [http-nio-8080-exec-1] c.patient.services.PatientServiceImpl    : Deleting patient with ID: 15
+2026-05-27T10:42:10.551+05:30  INFO 5604 --- [Patient_Management_API] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-27T10:42:10.552+05:30  INFO 5604 --- [Patient_Management_API] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T10:42:10.748+05:30  INFO 5604 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T10:42:10.750+05:30  INFO 5604 --- [Patient_Management_API] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:42:10.751+05:30  INFO 5604 --- [Patient_Management_API] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-27T10:42:10.755+05:30  INFO 5604 --- [Patient_Management_API] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-27T10:42:10.825+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 5604 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:42:10.825+05:30 DEBUG 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-27T10:42:10.825+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:42:10.963+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:42:10.976+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-05-27T10:42:11.084+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:42:11.085+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:42:11.085+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:42:11.114+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 287 ms
+2026-05-27T10:42:11.163+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:42:11.189+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:42:11.190+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-27T10:42:11.209+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3baa2051
+2026-05-27T10:42:11.209+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-27T10:42:11.212+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:42:11.266+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:42:11.279+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:42:11.350+05:30  WARN 5604 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:42:11.448+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:42:11.450+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 0.651 seconds (process running for 257.918)
+2026-05-27T10:42:11.451+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-27T10:42:26.119+05:30  INFO 5604 --- [Patient_Management_API] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-27T10:42:26.121+05:30  INFO 5604 --- [Patient_Management_API] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T10:42:26.304+05:30  INFO 5604 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T10:42:26.306+05:30  INFO 5604 --- [Patient_Management_API] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:42:26.306+05:30  INFO 5604 --- [Patient_Management_API] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-05-27T10:42:26.311+05:30  INFO 5604 --- [Patient_Management_API] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-05-27T10:42:26.379+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 5604 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:42:26.380+05:30 DEBUG 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-27T10:42:26.380+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:42:26.492+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:42:26.502+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2026-05-27T10:42:26.564+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:42:26.564+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:42:26.565+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:42:26.588+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 205 ms
+2026-05-27T10:42:26.620+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:42:26.640+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:42:26.641+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-05-27T10:42:26.657+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40027c97
+2026-05-27T10:42:26.657+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-05-27T10:42:26.659+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:42:26.695+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:42:26.704+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:42:26.753+05:30  WARN 5604 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:42:26.838+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:42:26.840+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 0.487 seconds (process running for 273.308)
+2026-05-27T10:42:26.841+05:30  INFO 5604 --- [Patient_Management_API] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-27T10:43:04.448+05:30  INFO 5604 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-05-27T10:43:04.449+05:30  INFO 5604 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T10:43:04.627+05:30  INFO 5604 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T10:43:04.630+05:30  INFO 5604 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:43:04.630+05:30  INFO 5604 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-05-27T10:43:04.635+05:30  INFO 5604 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-05-27T10:58:17.265+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Starting PatientManagementApiApplication using Java 17.0.12 with PID 17736 (D:\Patient_Management_API\target\classes started by NANDAN in D:\Patient_Management_API)
+2026-05-27T10:58:17.270+05:30 DEBUG 17736 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-27T10:58:17.271+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T10:58:17.320+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-27T10:58:17.320+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-27T10:58:17.930+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T10:58:17.979+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2026-05-27T10:58:18.385+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T10:58:18.397+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T10:58:18.398+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T10:58:18.451+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1129 ms
+2026-05-27T10:58:18.620+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T10:58:18.669+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-27T10:58:19.104+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T10:58:19.133+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-27T10:58:19.406+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e0eeaca
+2026-05-27T10:58:19.413+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-27T10:58:19.563+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/patient_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: patient_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T10:58:20.421+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T10:58:20.477+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T10:58:20.554+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-27T10:58:20.754+05:30  WARN 17736 --- [Patient_Management_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T10:58:21.110+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T10:58:21.116+05:30  INFO 17736 --- [Patient_Management_API] [restartedMain] c.p.PatientManagementApiApplication      : Started PatientManagementApiApplication in 4.274 seconds (process running for 5.047)
+2026-05-27T10:58:34.474+05:30  INFO 17736 --- [Patient_Management_API] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-27T10:58:34.474+05:30  INFO 17736 --- [Patient_Management_API] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-27T10:58:34.486+05:30  INFO 17736 --- [Patient_Management_API] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2026-05-27T10:58:34.639+05:30 DEBUG 17736 --- [Patient_Management_API] [http-nio-8080-exec-2] c.patient.controllers.PatientController  : New Patient Details is adding
+2026-05-27T10:58:34.639+05:30 DEBUG 17736 --- [Patient_Management_API] [http-nio-8080-exec-2] c.patient.controllers.PatientController  : Going to service layer
+2026-05-27T10:58:34.721+05:30  INFO 17736 --- [Patient_Management_API] [http-nio-8080-exec-2] c.patient.services.PatientServiceImpl    : Registering new patient: Karthik Sharma
+2026-05-27T10:58:39.503+05:30  WARN 17736 --- [Patient_Management_API] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.patient.dto.PatientResponseDTO com.patient.controllers.PatientController.addNewPatientDetails(com.patient.dto.PatientRequestDTO): [Field error in object 'patientRequestDTO' on field 'firstName': rejected value []; codes [NotBlank.patientRequestDTO.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [patientRequestDTO.firstName,firstName]; arguments []; default message [firstName]]; default message [First Name is required]] ]
+2026-05-27T11:03:24.404+05:30  INFO 17736 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-05-27T11:03:24.408+05:30  INFO 17736 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T11:03:24.582+05:30  INFO 17736 --- [Patient_Management_API] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T11:03:24.586+05:30  INFO 17736 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T11:03:24.590+05:30  INFO 17736 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T11:03:24.598+05:30  INFO 17736 --- [Patient_Management_API] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
